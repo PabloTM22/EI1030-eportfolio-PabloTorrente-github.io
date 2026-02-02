@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="ePortfolio EI1030/EI1032 – Ejercicios Previos (EP1–EP6) con reflexión y evidencias." />
+  <title>ePortfolio EI1030/EI1032 · Ejercicios Previos - Pablo Torrente</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="container header-grid">
+      <div>
+        <p class="badge" aria-label="Asignatura">EI1030/EI1032</p>
+        <h1>ePortfolio · Ejercicios Previos</h1>
+        <p class="subtitle">
+          Evidencias (PDF/links) + reflexión de lo aprendido en cada EP. Acceso público para evaluación.
+        </p>
+      </div>
+
+      <aside class="card mini-card" aria-label="Resumen rápido">
+        <p class="mini-title">Estado</p>
+        <p class="mini-kpi"><span id="kpiDone">0</span> / 6 EP entregados</p>
+        <p class="mini-note" id="kpiLast">Última entrega: —</p>
+      </aside>
+    </div>
+
+    <nav class="site-nav container" aria-label="Navegación principal">
+      <a href="#progreso">Progreso EP</a>
+      <a href="#entregas">Entregas</a>
+      <a href="#criterios">Requisitos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main id="contenido" class="container">
+    <section id="progreso" class="section">
+      <div class="section-head">
+        <h2>Progreso EP1–EP6</h2>
+        <p class="muted">Marca visual para que el profesor vea rápido qué está entregado y con reflexión.</p>
+      </div>
+
+      <div class="progress-grid" role="list" aria-label="Lista de ejercicios previos">
+        <!-- Se rellena con JS -->
+      </div>
+    </section>
+
+    <section id="entregas" class="section">
+      <div class="section-head">
+        <h2>Entregas</h2>
+        <p class="muted">Cada tarjeta incluye evidencia (enlace) + reflexión. Se abre en nueva pestaña para corregir más rápido.</p>
+      </div>
+
+      <div class="deliveries-grid" id="deliveriesGrid" aria-live="polite">
+        <!-- Se rellena con JS -->
+      </div>
+    </section>
+
+    <section id="criterios" class="section">
+      <div class="section-head">
+        <h2>Requisitos que cumplo (según el enunciado)</h2>
+      </div>
+
+      <div class="card">
+        <ul class="checklist">
+          <li><strong>URL única y estable</strong> (siempre la misma) para enviar en la tarea.</li>
+          <li><strong>Acceso público</strong> sin permisos ni login (probado en incógnito).</li>
+          <li><strong>EP1–EP6</strong> con evidencia y <strong>reflexión</strong> tras la sesión.</li>
+          <li>Enlaces que se abren en <strong>nueva ventana/pestaña</strong> para facilitar corrección.</li>
+        </ul>
+        <p class="muted small">
+          Nota: también añadiré la actividad final “Talk (Industry Talk)” cuando toque.
+        </p>
+      </div>
+    </section>
+
+    <section id="contacto" class="section">
+      <div class="section-head">
+        <h2>Contacto</h2>
+        <p class="muted">Por si el profesor necesita avisarme de algún problema con el enlace o permisos.</p>
+      </div>
+
+      <div class="card contact">
+        <p><strong>Nombre:</strong> <span id="studentName">TU NOMBRE</span></p>
+        <p><strong>Grupo:</strong> <span id="studentGroup">TU GRUPO</span></p>
+        <p><strong>Email:</strong> <a href="mailto:tucorreo@uji.es">tucorreo@uji.es</a></p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p class="muted small">
+        © <span id="year"></span> · ePortfolio EI1030/EI1032 · Hecho para evaluación (EP1–EP6).
+      </p>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html> <!-- deploy -->
